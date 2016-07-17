@@ -51,6 +51,6 @@ All of the SQL queries and its results are under this folder
         `cat part_i.sql`  
 
 # Resource  
-[Command Line Shell for SQLite](https://www.sqlite.org/cli.html)
-[Create View](http://www.w3schools.com/sql/sql_view.asp)
+[Command Line Shell for SQLite](https://www.sqlite.org/cli.html)  
+[Create View](http://www.w3schools.com/sql/sql_view.asp)  
 
