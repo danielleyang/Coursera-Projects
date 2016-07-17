@@ -1,22 +1,22 @@
 # Description  
 This SQL project focuses using UNION, JOIN, SUM, GROUP BY, ORDER BY etc functions to extract the information from databases. It also transforms a matrix into a table and expresses matrix multiplication as a SQL query.  
 
-# DATE  
+# Date  
 07/11/16 - 07/17/16  
 
 # Usage  
 The two databases used in this project can be download from [uwescience/datasci_course_materials](https://github.com/uwescience/datasci_course_materials.git)  
-` `Create a folder in your local directory and clone the original datafiles  
+` ` Create a folder in your local directory and clone the original datafiles  
 `git clone https://github.com/uwescience/datasci_course_materials.git`   
 
-` `For part I and III  
+` ` For part I and III  
 `sqlite3 reuters.db`  
 
-` `For part II  
+` ` For part II  
 `sqlite3 matrix.db`   
 
 # SQL queries  
-` `All of the SQL queries and its results are under this folder  
+All of the SQL queries and its results are under this folder  
 ## Part I 
   * (a) SELECT: Write a query that is equivalent to the following relational algebra expression.   
         σdocid=10398_txt_earn(frequency)  
