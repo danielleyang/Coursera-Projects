@@ -1,5 +1,6 @@
 # Description  
-This assignment is not use MapReduce to do parallel programming. It is simply to train me to think in MapReduce for future programming in MapReduce/HaDoop. 
+This assignment is not use MapReduce to do parallel programming.  
+It is simply to train me to think in MapReduce for future programming in MapReduce/HaDoop.   
 
 # Date  
 07/18/16 - 07/24/16  
@@ -7,9 +8,9 @@ This assignment is not use MapReduce to do parallel programming. It is simply to
 # Usage    
 The files used in this assignment can be downloaded here:  
 `https://github.com/jenny91515/Coursera-Projects.git`   
-After do 
+After downloading, the files for this project can be found under Coursera Projects/Data Manipulation At Scale/Python/MapReduce  
 
-# SQL queries  
+# Tasks Break Down   
 All of the SQL queries and its results are under this folder  
 ## Part I 
   * (a) SELECT: Write a query that is equivalent to the following relational algebra expression.   
