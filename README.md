@@ -1,5 +1,5 @@
 ### This folder contains all the projects I have done when taking courses on Coursera  
-# Data Manipulation at Scale: Systems and Algorithms  
+# [Course I: Data Manipulation at Scale: Systems and Algorithms](https://www.coursera.org/learn/data-manipulation)  -- Completed 07.24.2016
 ## Learning Goals  
   1. Describe common patterns, challenges, and approaches associated with data science projects, and what makes them different from projects in related fields. 
   2. Identify and use the programming models associated with scalable data manipulation, including relational algebra, mapreduce, and other data flow models.  
