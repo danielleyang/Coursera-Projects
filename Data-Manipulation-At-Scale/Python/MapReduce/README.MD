@@ -44,6 +44,29 @@ Each input record is a 2 element list [personA, personB] where personA is a stri
 The output should be a pair (person, friend_count) where person is a string and friend_count is an integer indicating the number of friends associated with person.    
 
   `python friend_count.py friends.json`  
-# Resource  
-[Command Line Shell for SQLite](https://www.sqlite.org/cli.html)  
-[Create View](http://www.w3schools.com/sql/sql_view.asp)  
+
+## Problem 4 Implement a MapReduce algorithm to check non-symmetric friend relationships   
+  * (a) Mapper Input  
+Each input record is a 2 element list [personA, personB] where personA is a string representing the name of a person and personB is a string representing the name of one of personA's friends. Note that it may or may not be the case that the personA is a friend of personB.  
+  * (b) Reducer Input  
+The output should be all pairs (friend, person) such that (person, friend) appears in the dataset but (friend, person) does not.    
+
+  `python asymmetric_friendships.py friends.json`  
+ 
+## Problem 5 Write a MapReduce query to remove the last 10 characters from each string of nucleotides, then remove any duplicates generated   
+  * (a) Mapper Input  
+Each input record is a 2 element list [sequence id, nucleotides] where sequence id is a string representing a unique identifier for the sequence and nucleotides is a string representing a sequence of nucleotides.  
+  * (b) Reducer Input  
+The output from the reduce function should be the unique trimmed nucleotide strings.  
+
+  `python unique_trims.py dna.json`  
+
+## Problem 6 Design a MapReduce algorithm to compute the matrix multiplication A x B   
+  * (a) Mapper Input  
+The input to the map function will be a row of a matrix represented as a list. Each list will be of the form [matrix, i, j, value] where matrix is a string and i, j, and value are integers. The first item, matrix, is a string that identifies which matrix the record originates from. This field has two possible values: "a" indicates that the record is from matrix A and "b" indicates that the record is from matrix B.  
+  * (b) Reducer Input  
+The output from the reduce function will also be a row of the result matrix represented as a tuple. Each tuple will be of the form (i, j, value) where each element is an integer.  
+
+  `python multiply.py matrix.json`  
+  
+
